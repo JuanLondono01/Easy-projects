@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="tablas.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="structure">
+        <h1>Tablas de multiplicar</h1>
+        <label for="int1" class="int1-label">¿De que numero deseas hacer la tabla?</label> <br>
+        <input type="number" id="int1"> <br>
+        <label for="int2" class="int2-label">¿Hasta que numero desea que sea la tabla de multiplicar?</label> <br>
+        <input type="number" id="int2"> <br>
+        <button onclick="createTable()">Crear la tabla de multiplicar</button> <br>
+        <button onclick="limpiar()">Limpiar la tabla</button>
+
+
+
+        <div class="tabla">
+            <h2 id="tableTitle"></h2>
+            <ul id="tabla">
+
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
